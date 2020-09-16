@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Лаба3\Лаба3\bin\Debug\Лаба3.exe.config
+C:\Users\User\source\repos\Лаба3\Лаба3\bin\Debug\Лаба3.exe
+C:\Users\User\source\repos\Лаба3\Лаба3\bin\Debug\Лаба3.pdb
+C:\Users\User\source\repos\Лаба3\Лаба3\obj\Debug\Лаба3.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Лаба3\Лаба3\obj\Debug\Лаба3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Лаба3\Лаба3\obj\Debug\Лаба3.exe
+C:\Users\User\source\repos\Лаба3\Лаба3\obj\Debug\Лаба3.pdb
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\bin\Debug\Лаба3.exe.config
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\bin\Debug\Лаба3.exe
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\bin\Debug\Лаба3.pdb
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\obj\Debug\Лаба3.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\obj\Debug\Лаба3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\obj\Debug\Лаба3.exe
+C:\Users\User\Desktop\ООП\Лаба3\Лаба3\obj\Debug\Лаба3.pdb
