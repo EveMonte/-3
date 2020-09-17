@@ -168,15 +168,15 @@ namespace Лаба3
                 {
                     int hour1, hour2, minute1, minute2;
                     char ch;
-                    hour1 = 
+                    //hour1 = 
                     ch = Trains[0].Time[0];
-                    hour1 = Char.GetNumericValue(Trains[0].Time[0]) * 10 + Convert.ToInt32(Trains[0].Time[1]);
-                    Console.WriteLine(hour1);
-                    minute1 = Convert.ToInt32(Trains[3].Time[0]) * 10 + Convert.ToInt32(Trains[4].Time[1]);
-                    hour2 = Convert.ToInt32(time[0]) * 10 + Convert.ToInt32(time[1]);
-                    minute2 = Convert.ToInt32(time[3]) * 10 + Convert.ToInt32(time[4]);
+                    hour1 = (int)Char.GetNumericValue(Trains[0].Time[0]) * 10 + (int)Char.GetNumericValue(Trains[0].Time[1]);
+                    //Console.WriteLine(hour1);
+                    minute1 = (int)Char.GetNumericValue(Trains[0].Time[3]) * 10 + (int)Char.GetNumericValue(Trains[0].Time[4]);
+                    hour2 = (int)Char.GetNumericValue(time[0]) * 10 + (int)Char.GetNumericValue(time[1]);
+                    minute2 = (int)Char.GetNumericValue(time[3]) * 10 + (int)Char.GetNumericValue(time[4]);
 
-                    if(((hour1 == hour2) && minute1 > minute2) || hour1 > hour2)
+                    if (((hour1 == hour2) && minute1 > minute2) || hour1 > hour2)
                     {
                         Trains[i].Output();
                         break;
@@ -188,7 +188,7 @@ namespace Лаба3
             }
 
 
-
+            var t = new { Destination = "Брест", Number = 702, Time = "11:10", PlacesCoupe =  60, PlacesCommon = 42, PlacesLuxury =  30, PlacesReserved =  20 };
 
 
         }
