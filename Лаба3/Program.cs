@@ -20,6 +20,7 @@ namespace Лаба3
         const string Class = "Business";
         static int Counter = 0;
         public int Size;
+
         /*private Train()
         {
             Console.WriteLine("This is private class, dude! Go on!");
@@ -85,7 +86,7 @@ namespace Лаба3
 
         }
 
-        public void CounterOutput()
+        static void CounterOutput()
         {
             Console.WriteLine("Количество созданных экземпляров объекта Train равно {0}", Counter);
         }
@@ -124,14 +125,14 @@ namespace Лаба3
             //Конструктор с параметрами
             Trains[1] = new Train("Минск", 706, "6:33", 60, 45, 30, 40);
             Trains[1].Output();
-
+            
             //Конструктор с параметрами по умолчанию
             Trains[2] = new Train("Минск", 60, 45, 30, places4: 30);
             Trains[2].Output();
             Trains[2].AllPlaces(ref Trains[2], out places);
             Console.WriteLine("Количество мест в поезде: {0}", places);
 
-            Trains[0].CounterOutput();
+            //Trains[0].CounterOutput();
 
             Console.WriteLine($"Строка представляющая объект Trains: {Trains[0].ToString()}");
 
@@ -142,7 +143,7 @@ namespace Лаба3
             Console.WriteLine($"Тип экземпляра Trains[0]: {Trains[0].GetType()}");
 
             string dest;
-            Console.WriteLine("Поезд с каким напрвалением вы хотите найти?");
+            Console.WriteLine("Поезд с каким направлением вы хотите найти?");
             dest = Convert.ToString(Console.ReadLine());
 
             //Поиск поездов по месту прибытия
@@ -155,7 +156,7 @@ namespace Лаба3
                 }
             }
 
-            Console.WriteLine("Поезд с каким напрвалением вы хотите найти?");
+            Console.WriteLine("Поезд с каким направлением вы хотите найти?");
             dest = Convert.ToString(Console.ReadLine());
             string time;
             Console.WriteLine("После какого времени должен отправляться поезд?");
